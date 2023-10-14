@@ -1,0 +1,21 @@
+{
+  "name": "nodetesting",
+  "version": "1.0.0",
+  "description": "nauka noda",
+  "scripts": {
+    "test": "echo 'cześć to ja'",
+    "addTwoNumbers": "node addTwoNumbers",
+    "addTwoNumbers10and10": "node addTwoNumbers 10 10",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "john doe",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^4.4.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.0",
+    "process": "^0.11.10"
+  }
+}
